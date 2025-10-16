@@ -1,10 +1,10 @@
-🚀 Terraform EC2 Deployment
+Terraform EC2 Deployment
 
 This project demonstrates how to **provision an AWS EC2 instance** using **Terraform (HCL)**. It includes a basic setup with a security group, default VPC data source, and output of the instance’s public IP.
 
 
 
-📁 Project Structure
+Project Structure
 
 terraform-EC2/
 │
@@ -15,7 +15,7 @@ terraform-EC2/
 
 
 
-🧠 Overview
+Overview
 
 The configuration file (`main.tf`) performs the following:
 
@@ -26,7 +26,7 @@ The configuration file (`main.tf`) performs the following:
 
 
 
-## 🛠️ Prerequisites
+Prerequisites
 
 Before using this project, ensure you have:
 
@@ -37,7 +37,7 @@ Before using this project, ensure you have:
   aws configure
 
   
-⚙️ How to Deploy
+How to Deploy
 1️⃣ Initialize Terraform
 
 terraform init
@@ -50,7 +50,8 @@ terraform plan
 
 terraform apply
 
-🌐 Output Example
+
+Output Example
 
 After a successful apply, Terraform displays:
 
@@ -60,12 +61,14 @@ Outputs:
 
 ec2_public_ip = "18.212.237.59"
 
-🧹 Destroy Resources
+
+Destroy Resources
 To clean up and avoid AWS charges:
 
 terraform destroy
 
-🧩 Resources Created
+
+Resources Created
 
 | Resource Type        | Name    | Description                     |
 | -------------------- | ------- | ------------------------------- |
